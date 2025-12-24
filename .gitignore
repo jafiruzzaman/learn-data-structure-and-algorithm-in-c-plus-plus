@@ -1,0 +1,37 @@
+# Ignore everything by default
+*
+
+# But don’t ignore these file types
+!*.cpp
+!*.h
+!*.hpp
+!*.md
+!LICENSE
+!.gitignore
+!.clang-format
+# Keep folder structure tracked
+!*/
+
+# Ignore compiled/generated files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.gch
+*.pch
+*.dwo
+*.pdb
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
