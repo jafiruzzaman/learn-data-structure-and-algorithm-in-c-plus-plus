@@ -23,37 +23,34 @@
 
 ---
 
-# 📂 Folder Structure (`learn-dsa-cpp/`)
+# 📂 Folder Structure (`learn-data-structure-and-algorithm-in-c-plus-plus/`)
 
-```
-📦 learn-dsa-cpp
-├── 00-utils/             # helper functions, macros, print/debug templates
-├── 01-arrays/
-│   ├── 1d/
-│   │   ├── 00-basics/
-│   │   ├── 01-easy/
-│   │   ├── 02-medium/
-│   │   └── 03-advanced/
-│   ├── 2d/
-│   └── problems/
-├── 02-strings/
-├── 03-linked-list/
-├── 04-stack/
-├── 05-queue/
-├── 06-binary-search/
-├── 07-sorting/
-│   ├── basic/
-│   └── advanced/
-├── 08-recursion/
-├── 09-hashing/
-├── 10-trees/
-├── 11-bst/
-├── 12-heap/
-├── 13-graphs/
-├── 14-greedy/
-├── 15-backtracking/
-└── 16-dp/
-```
+📦 learn-data-structure-and-algorithm-in-c-plus-plus
+├── 00_Basics
+├── 01_Arrays
+├── 02_Binary_Search
+├── 03_Sorting
+│   ├── Basic
+├── 05_STL
+├── 06_Basic_Math_For_DSA
+├── 07_Pointers
+├── 08_Recursion
+├── 09_OOPs
+├── 10_LinkedList
+├── 11_Stack
+├── 12_Queue
+├── 13_Binary_Tree
+├── 14_Binary_Search_Tree
+├── 15_Heap
+├── 16_HashMap
+├── 17_Tries
+├── 18_Backtracking
+├── 19_Graph
+├── 20_Dynamic_Programming
+├── 21_SDE_Sheet
+├── 22_Interviews
+├── 23_NeetCode
+├── 24_LeetCode
 
 ---
 
@@ -96,24 +93,25 @@
 
 ```mermaid
 flowchart TD
-  A[C++ Basics & OOP] --> B[Maths for DSA]
-  B --> C[Arrays]
-  C --> D[Strings]
-  D --> E[Searching & Sorting]
-  E --> F[Two Pointers & Sliding Window]
-  F --> G[Hashing]
-  G --> H[Recursion]
-  H --> I[Backtracking]
-  I --> J[LinkedList]
-  J --> K[Stack & Queue]
-  K --> L[Trees]
-  L --> M[Binary Search Tree]
-  M --> N[Heap & PriorityQueue]
-  N --> O[Greedy]
-  O --> P[Graphs]
-  P --> Q[Dynamic Programming]
-  Q --> R[Advanced Trees & Tries]
-  R --> S[Interview Problems / SDE Sheets]
+  A[00_Basics_and_OOP] --> B[01_Maths_for_DSA]
+  B --> C[02_Arrays]
+  C --> D[03_Strings]
+  D --> E[04_Searching_and_Sorting]
+  E --> F[05_Two_Pointers_and_Sliding_Window]
+  F --> G[06_Hashing]
+  G --> H[07_Recursion]
+  H --> I[08_Backtracking]
+  I --> J[09_LinkedList]
+  J --> K[10_Stack_and_Queue]
+  K --> L[11_Trees]
+  L --> M[12_Binary_Search_Tree]
+  M --> N[13_Heap_and_PriorityQueue]
+  N --> O[14_Greedy]
+  O --> P[15_Graphs]
+  P --> Q[16_Dynamic_Programming]
+  Q --> R[17_Advanced_Trees_and_Tries]
+  R --> S[18_Interview_Problems_SDE_Sheets]
+
 ```
 
 ---
