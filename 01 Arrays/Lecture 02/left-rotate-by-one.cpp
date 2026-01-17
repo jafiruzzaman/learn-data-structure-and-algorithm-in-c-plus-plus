@@ -26,8 +26,7 @@ void print(int arr[],int n){
 
 int main(){
   cout<<"left rotate an array by one places on GFG" <<endl;
-
-  
+ 
   int size;
   cout << "Enter the size of the array: ";
   cin >> size;
@@ -43,6 +42,7 @@ int main(){
   for (int i = 0; i < size; i++) {
       cin >> arr[i];
   }
+  
   leftRotateByOne(arr,size); // Total Time Complexity --> ⌛ O(n)
   print(arr,size);
   return 0;
