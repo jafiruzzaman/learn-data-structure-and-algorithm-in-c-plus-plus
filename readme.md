@@ -25,31 +25,31 @@
 
 # 📂 Folder Structure (`learn-data-structure-and-algorithm-in-c-plus-plus/`)
 
-📦 learn-data-structure-and-algorithm-in-c-plus-plus
-├── 00_Basics
-├── 01_Arrays
-├── 02_Binary_Search
-├── 03_Sorting
-│   ├── Basic
-├── 05_STL
-├── 06_Basic_Math_For_DSA
-├── 07_Pointers
-├── 08_Recursion
-├── 09_OOPs
-├── 10_LinkedList
-├── 11_Stack
-├── 12_Queue
-├── 13_Binary_Tree
-├── 14_Binary_Search_Tree
-├── 15_Heap
-├── 16_HashMap
-├── 17_Tries
-├── 18_Backtracking
-├── 19_Graph
-├── 20_Dynamic_Programming
-├── 21_SDE_Sheet
-├── 22_Interviews
-├── 23_NeetCode
+📦 learn-data-structure-and-algorithm-in-c-plus-plus\
+├── 00_Basics\
+├── 01_Arrays\
+├── 02_Binary\
+├── 03_Sorting\
+│   ├── Basic\
+├── 05_STL\
+├── 06_Basic_\
+├── 07_Pointe\
+├── 08_Recurs\
+├── 09_OOPs\
+├── 10_Linked\
+├── 11_Stack\
+├── 12_Queue\
+├── 13_Binary\
+├── 14_Binary\
+├── 15_Heap\
+├── 16_HashMa\
+├── 17_Tries\
+├── 18_Backtracking\
+├── 19_Graph\
+├── 20_Dynamic Programming\
+├── 21_SDE_Sheet\
+├── 22_Interview\
+├── 23_NeetCode\
 ├── 24_LeetCode
 
 ---
