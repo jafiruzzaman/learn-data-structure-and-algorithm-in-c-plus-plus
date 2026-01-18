@@ -94,10 +94,10 @@ int main(){
   cout << "Enter the number of positions to rotate: ";
   cin >> d;
 
-  // leftRotateByDPlacesBrute(arr, size, d); // Time & Space Complexity --> ⌛ O(n+d) & 💾 O(d)
-  // cout << "Array after left rotation by " << d << " places:" << endl;
-  // print(arr, size);
-  leftRotateByDPlacesOptimal(arr,size,d);
+  leftRotateByDPlacesBrute(arr, size, d); // Time & Space Complexity --> ⌛ O(n+d) & 💾 O(d)
+  cout << "Array after left rotation by " << d << " places:" << endl;
+  print(arr, size);
+  leftRotateByDPlacesOptimal(arr,size,d); // Time & Space Complexity --> ⌛ O(n) & 💾 O(1)
   print(arr,size);
   return 0;
 }
