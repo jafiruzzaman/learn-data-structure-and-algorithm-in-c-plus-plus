@@ -24,11 +24,45 @@ void leftRotateByDPlacesBrute(int arr[],int n,int d){
     arr[i-d] = arr[i];  // Time Complexity --> ⌛ O(n-d)
   }
   // put-back array elements
-  for (int i = 0; i < n; i++)
+  for (int i = 0; i < d; i++)
   {
     arr[n - d + i] = temp[i]; // Time Complexity --> ⌛ O(d)
   }
 
+}
+
+void reverse(int arr[],int start,int end){
+  while (start<end)
+  {
+    int temp = arr[start];
+    arr[start] = arr[end];
+    arr[end] = temp;
+    start++;
+    end--;
+  }
+}
+
+
+/* OPTIMAL:
+  step 01: i will first reverse 0 to dth places
+  step 02: i will reverse dth place to nth places
+  step 03: i will reverse the whole array
+*/
+void leftRotateByDPlacesOptimal(int arr[],int n,int d){
+  // if d is greater than n
+  d = d%n;
+  // if d == 0
+  if (n<=1 ||d==0)
+  {
+    return;
+  }
+  
+  // first reverse 0 to dth places
+  reverse(arr,0,d-1);
+  // reverse dth place to nth places
+  reverse(arr,d,n-1);
+  // reverse the whole array
+  reverse(arr,0,n-1);
 }
 
 void print(int arr[],int n){
@@ -60,9 +94,10 @@ int main(){
   cout << "Enter the number of positions to rotate: ";
   cin >> d;
 
-  leftRotateByDPlacesBrute(arr, size, d); // Time & Space Complexity --> ⌛ O(n+d) & 💾 O(d)
-  cout << "Array after left rotation by " << d << " places:" << endl;
-  print(arr, size);
-
+  // leftRotateByDPlacesBrute(arr, size, d); // Time & Space Complexity --> ⌛ O(n+d) & 💾 O(d)
+  // cout << "Array after left rotation by " << d << " places:" << endl;
+  // print(arr, size);
+  leftRotateByDPlacesOptimal(arr,size,d);
+  print(arr,size);
   return 0;
 }
